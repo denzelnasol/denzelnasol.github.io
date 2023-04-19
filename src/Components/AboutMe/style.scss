@@ -1,0 +1,59 @@
+.about-me {
+  color: white;
+  text-align: center;
+
+  .about-title {
+    margin-top: 9rem;
+    font-size: 3rem;
+  }
+
+  .profile-image {
+    img {
+      margin-top: 2rem;
+      border-radius: 50%;
+      width: 10rem;
+    }
+  }
+
+  .about-me-description {
+    margin-top: 3rem;
+    padding-left: 20rem;
+    padding-right: 20rem;
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: left;
+    font-weight: 500;
+    font-size: large;
+    margin-bottom: 2rem;
+
+    @media (max-width: 1200px) {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+  }
+
+  .technologies {
+    margin-top: 1rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    @media (max-width: 1200px) {
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+    }
+
+    .technology-icon {
+      padding: 0.75rem;
+
+      &:nth-child(even) {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+      }
+    }
+
+  }
+}

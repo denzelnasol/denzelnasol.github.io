@@ -1,0 +1,29 @@
+.main-section {
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+  padding-top: 22rem;
+
+  @media (max-width: 800px) {
+    padding-top: 10rem;
+  }
+
+  .name-text {
+      color: yellow;
+  }
+
+  .view-work-button {
+      background-color: transparent;
+      border: solid;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+  }
+
+  .down-arrow {
+      margin-left: 0.5rem;
+  }
+}

@@ -1,0 +1,44 @@
+
+.nav-bar-scrolled {
+  position: sticky !important;
+  top: 0;
+  z-index: 1;
+  transition: none;
+}
+
+.navigation-bar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+  }
+
+  .navigation {
+      li a {
+          color: white;
+          float: left;
+          display: block;
+          font-weight: bolder;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+      }
+
+      li a:hover {
+          color: yellow;
+          background-color: #111;
+      }
+
+      .nav-item-active {
+          a {
+              color: yellow !important;
+          }
+      }
+  }
+}

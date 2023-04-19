@@ -1,0 +1,23 @@
+.technology-icon {
+  padding: 0.75rem;
+
+  .border {
+    background-color: rgba(128, 128, 128, 0.2);
+    border: solid;
+    border-color: white;
+    border-radius: 0.5rem;
+    padding: 0.2rem 0.4rem 0.2rem 0.4rem;
+    width: 10rem;
+    height: fit-content;
+  }
+
+  .icon {
+    width: 4rem;
+    fill: white;
+    font-size: 4rem;
+  }
+
+  .technology-text {
+    font-weight: 500;
+  }
+}

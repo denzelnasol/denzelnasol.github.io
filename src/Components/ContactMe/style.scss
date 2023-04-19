@@ -1,0 +1,89 @@
+
+.contact-me {
+  color: white;
+  text-align: center;
+
+  .contact-title {
+    margin-top: 9rem;
+    font-size: 3rem;
+  }
+
+  .contact-description {
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+    text-align: center;
+    padding-left: 30rem;
+    padding-right: 30rem;
+    margin-bottom: 3rem;
+
+    @media (max-width: 1200px) {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+  }
+
+  .form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .contact-form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+
+
+  label {
+    font-weight: bold;
+  }
+
+  input,
+  textarea {
+    padding: 0.5rem;
+    border: 1px solid #444444;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    width: 30rem;
+    background-color: #444444;
+    font-family: Helvetica, Arial, sans-serif;
+    color: white;
+  }
+
+  textarea {
+    height: 8rem;
+    resize: none;
+  }
+
+  button[type="submit"] {
+    padding: 0.5rem;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    font-size: 1rem;
+    width: 8rem;
+    margin-left: auto;
+    cursor: pointer;
+
+    color: white;
+    border-bottom: 1.5px solid yellow;
+    text-decoration: none;
+    padding: 0.5rem;
+    position: relative;
+  }
+
+  button[type="submit"]:hover {
+    background-color: yellow;
+    color: black;
+    transition: background-color 0.2s ease-in-out;
+  }
+
+  button[type="submit"]:not(:hover) {
+    background-color: transparent;
+    color: white;
+    transition: background-color 0.2s ease-in-out;
+  }
+
+}

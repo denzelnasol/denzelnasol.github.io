@@ -1,0 +1,77 @@
+.footer {
+  margin-top: 3rem;
+  width: 100%;
+  background-color: #444444;
+  height: 11rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+  color: white;
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .icon {
+    padding: 2rem 1rem 1rem 1rem;
+    font-size: 3rem;
+  }
+  
+  .icons {
+    margin-top: 2rem;
+  }
+  
+  .icons a {
+    display: inline-block;
+    margin: 0 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .icons a:hover {
+    transform: translateY(-5px);
+  }
+  
+
+  .foot-mark {
+    font-weight: 700;
+    margin-top: 1rem;
+    font-size: 0.75rem;
+    margin-bottom: 1rem;
+  }
+
+  .return-home {
+    // position: absolute;
+    top: -25px;
+    width: 40px;
+    height: 45px;
+    margin-right: auto;
+    margin-left: auto;
+    left: 0;
+    right: 0;
+    z-index: 4;
+
+    :hover {
+      animation: bounce 0.5s infinite alternate;
+    }
+    
+    @keyframes bounce {
+      from {
+        transform: translateY(0);
+      }
+      to {
+        transform: translateY(-5px);
+      }
+    }
+  }
+
+  .return-container {
+    padding: 0.75rem 0 0.75rem 0;
+    background-color: rgb(190, 190, 12);
+    text-align: center;
+    margin-top: -1.5rem;
+  }
+}
