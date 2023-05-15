@@ -1,22 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.99088cd7.css",
-    "main.js": "/static/js/main.0b55f531.js",
+    "main.css": "/static/css/main.27e2d51d.css",
+    "main.js": "/static/js/main.ce24f700.js",
+    "static/media/web-chess-1.png": "/static/media/web-chess-1.bddc3b3a080df693859d.png",
+    "static/media/investing-simulator-2.png": "/static/media/investing-simulator-2.276b2ace5ae7c70e5f7c.png",
+    "static/media/investing-simulator-5.png": "/static/media/investing-simulator-5.7dc0635b6b5ed9295c6c.png",
+    "static/media/investing-simulator-3.png": "/static/media/investing-simulator-3.b4672ae10494022ca155.png",
+    "static/media/web-chess-2.png": "/static/media/web-chess-2.a66896b95a415413676f.png",
     "static/media/investing-simulator-1.png": "/static/media/investing-simulator-1.648cefc4e6a3ff9b725f.png",
+    "static/media/investing-simulator-4.png": "/static/media/investing-simulator-4.4b26e49ebbc0b40a6ee1.png",
+    "static/media/bbg-security-cam-3.png": "/static/media/bbg-security-cam-3.e6f26adbaee4bbe36db7.png",
     "static/media/profile-image.png": "/static/media/profile-image.cf4bdd05cfe7b7d5f335.png",
     "static/media/primeicons.svg": "/static/media/primeicons.e1441b135b3ca9ad643c.svg",
     "static/media/bbg-security-cam-1.jpg": "/static/media/bbg-security-cam-1.57a301de7dd9ba5731aa.jpg",
+    "static/media/bbg-security-cam-2.jpg": "/static/media/bbg-security-cam-2.3eb6febe6bb5438718ef.jpg",
     "static/media/primeicons.eot": "/static/media/primeicons.d44157bdfa026dc877af.eot",
     "static/media/primeicons.woff": "/static/media/primeicons.10d3152104f2208ac82a.woff",
     "static/media/primeicons.ttf": "/static/media/primeicons.ea5358601d0a3fd6670b.ttf",
     "static/media/primeicons.woff2": "/static/media/primeicons.78172950b335ccdb94e2.woff2",
     "static/media/color.png": "/static/media/color.6441e63a57ccc5105bad.png",
     "index.html": "/index.html",
-    "main.99088cd7.css.map": "/static/css/main.99088cd7.css.map",
-    "main.0b55f531.js.map": "/static/js/main.0b55f531.js.map"
+    "main.27e2d51d.css.map": "/static/css/main.27e2d51d.css.map",
+    "main.ce24f700.js.map": "/static/js/main.ce24f700.js.map"
   },
   "entrypoints": [
-    "static/css/main.99088cd7.css",
-    "static/js/main.0b55f531.js"
+    "static/css/main.27e2d51d.css",
+    "static/js/main.ce24f700.js"
   ]
 }
