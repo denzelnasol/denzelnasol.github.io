@@ -63,6 +63,7 @@ const ContactMe = () => {
               value={email}
               onChange={handleEmailChange}
               name="email"
+              required
             />
           </label>
 
@@ -72,6 +73,7 @@ const ContactMe = () => {
               value={message}
               onChange={handleMessageChange}
               name="message"
+              required
             />
           </label>
 

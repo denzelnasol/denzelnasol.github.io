@@ -3,6 +3,7 @@ import React from "react";
 // Components
 import InvestingSimulator from "./InvestingSimulator";
 import SecuritySensorSystem from "./SecuritySensorSystem";
+import WebChess from "./WebChess";
 
 // Styling
 import './style.scss';
@@ -19,9 +20,12 @@ const Projects = () => {
       </div>
 
       <div className="project">
-        <SecuritySensorSystem />
+        <WebChess />
       </div>
 
+      <div className="project">
+        <SecuritySensorSystem />
+      </div>
     </div>
   );
 }

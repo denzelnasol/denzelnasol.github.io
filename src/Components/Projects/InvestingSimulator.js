@@ -1,21 +1,63 @@
 import React from "react";
 
 // Images
-import investingSimulatorImage from 'images/investing-simulator-1.png';
+import investingSimulatorImage1 from 'images/investing-simulator-1.png';
+import investingSimulatorImage2 from 'images/investing-simulator-2.png';
+import investingSimulatorImage3 from 'images/investing-simulator-3.png';
+import investingSimulatorImage4 from 'images/investing-simulator-4.png';
+import investingSimulatorImage5 from 'images/investing-simulator-5.png';
 
 // Components
 import { Image } from 'primereact/image';
+import { Galleria } from "primereact/galleria";
 
 const InvestingSimulator = () => {
+
+  const images = [
+    { itemImageSrc: investingSimulatorImage1 },
+    { itemImageSrc: investingSimulatorImage2 },
+    { itemImageSrc: investingSimulatorImage3 },
+    { itemImageSrc: investingSimulatorImage4 },
+    { itemImageSrc: investingSimulatorImage5 },
+  ];
+
+  const responsiveOptions = [
+    {
+      breakpoint: '1024px',
+      numVisible: 3
+    },
+    {
+      breakpoint: '768px',
+      numVisible: 2
+    },
+    {
+      breakpoint: '560px',
+      numVisible: 1
+    }
+  ];
+
+  const itemTemplate = (item) => {
+    return <img src={item.itemImageSrc} style={{ width: '780px', height: '480px', display: 'block' }} />;
+  }
+
+  const thumbnailTemplate = (item) => {
+    return <img src={item.itemImageSrc} style={{ width: '120px', height: '80px', display: 'block' }} />;
+  }
   return (
     <div className="project">
-      <a href="https://investingsimulator.info" target="_blank" className="left-project-image-container">
-        <Image
-          className="investing-simulator-image"
-          src={investingSimulatorImage}
-          alt="Image Text"
+      <div className="left-project-image-container">
+        <Galleria
+          value={images}
+          responsiveOptions={responsiveOptions}
+          numVisible={3}
+          circular
+          style={{ maxWidth: '640px' }}
+
+          showItemNavigators
+          item={itemTemplate}
+          thumbnail={thumbnailTemplate}
         />
-      </a>
+      </div>
 
       <div className="project-text-container">
         <div className="project-title">
@@ -30,7 +72,7 @@ const InvestingSimulator = () => {
 
         <div className="live-site">
           <a href="https://investingsimulator.info" target="_blank">
-            In-progress
+            Live Site
           </a>
         </div>
 
