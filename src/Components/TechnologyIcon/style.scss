@@ -21,3 +21,19 @@
     font-weight: 500;
   }
 }
+
+@media (max-width: 1200px) {
+  .border {
+    padding: 0;
+    width: 7rem !important;
+  }
+
+  .icon {
+    width: 2rem !important;
+    font-size: 2rem !important;
+  }
+
+  .technologies {
+    margin-top: 0 !important;
+  }
+}

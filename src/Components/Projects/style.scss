@@ -8,6 +8,9 @@
     margin-bottom: 3rem;
   }
 
+  .web-chess {
+    flex-direction: row-reverse !important;
+  }
 
   .project {
     display: flex;
@@ -85,36 +88,104 @@
       padding: 2rem 5rem 2rem 0;
       transition: transform 0.2s ease-in-out;
 
-      .investing-simulator-image {
-        img {
-          width: 42rem;
-          height: 25rem;
-        }
-      }
+      // .investing-simulator-image {
+      //   img {
+      //     width: 42rem;
+      //     height: 25rem;
+      //   }
+      // }
     }
-
-    // .left-project-image-container:hover {
-    //   transform: scale(0.95);
-    // }
-
+  
     .right-project-image-container {
       margin-top: 4rem;
       background-color: rgb(188, 185, 0);
       padding: 2rem 0 2rem 5rem;
       transition: transform 0.2s ease-in-out;
 
-      .security-sensor-image {
-        img {
-          width: 42rem;
-          height: 25rem;
-        }
+      // .security-sensor-image {
+      //   img {
+      //     width: 42rem;
+      //     height: 25rem;
+      //   }
+      // }
+    }
+  }
+
+  @media (max-width: 1200px) {
+    .web-chess {
+      flex-direction: column !important;
+    }
+
+    .projects-title {
+      margin-bottom: 0;
+    }
+
+    .project {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      background: none;
+
+      .project-title {
+        margin-top: 6rem !important;
+        margin: 2rem;
+      }
+
+      .project-description {
+        margin: 2rem;
+      }
+
+      .project-text-container {
+        margin-left: 1rem;
+        margin-right: 1rem;
+      }
+
+      .left-project-image-container {
+        background-color: none !important;
+        padding: 0;
+      }
+
+      .right-project-image-container {
+        background-color: none !important;
+        padding: 0;
       }
     }
 
-    // .right-project-image-container:hover {
-    //   transform: scale(0.95);
+    .p-galleria-content {
+      width: 20rem;
+    }
+
+    .project-source-code {
+      margin-top: 2rem !important;
+    }
+
+    a {
+      color: white;
+      border-bottom: none;
+      text-decoration: none;
+      padding: 0.5rem;
+      position: relative;
+    }
+
+    // .project-image-container {
+    //   width: 50%;
     // }
 
+    // .project-title {
+    //   font-size: 32px;
+    //   margin-top: 0;
+    //   text-align: left;
+    // }
+
+    // .project-description {
+    //   font-size: 18px;
+    //   text-align: left;
+    // }
+
+    // .project-source-code {
+    //   text-align: left;
+    // }
   }
 
 

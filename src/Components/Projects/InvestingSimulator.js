@@ -37,7 +37,7 @@ const InvestingSimulator = () => {
   ];
 
   const itemTemplate = (item) => {
-    return <img src={item.itemImageSrc} style={{ width: '780px', height: '480px', display: 'block' }} />;
+    return <img src={item.itemImageSrc} style={{ width: '100%', display: 'block' }} />;
   }
 
   const thumbnailTemplate = (item) => {
@@ -45,20 +45,6 @@ const InvestingSimulator = () => {
   }
   return (
     <div className="project">
-      <div className="left-project-image-container">
-        <Galleria
-          value={images}
-          responsiveOptions={responsiveOptions}
-          numVisible={3}
-          circular
-          style={{ maxWidth: '640px' }}
-
-          showItemNavigators
-          item={itemTemplate}
-          thumbnail={thumbnailTemplate}
-        />
-      </div>
-
       <div className="project-text-container">
         <div className="project-title">
           Investing Simulator
@@ -81,6 +67,20 @@ const InvestingSimulator = () => {
             Source Code
           </a>
         </div>
+      </div>
+
+      <div className="right-project-image-container">
+        <Galleria
+          value={images}
+          responsiveOptions={responsiveOptions}
+          numVisible={3}
+          circular
+          style={{ maxWidth: '640px' }}
+
+          showItemNavigators
+          item={itemTemplate}
+          thumbnail={thumbnailTemplate}
+        />
       </div>
 
     </div>

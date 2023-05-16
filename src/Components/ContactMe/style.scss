@@ -87,3 +87,13 @@
   }
 
 }
+
+@media (max-width: 1200px) {
+  input {
+    width: 15rem !important;
+  }
+
+  textarea {
+    width: 15rem !important;
+  }
+}

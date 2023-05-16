@@ -34,7 +34,7 @@ const WebChess = () => {
   ];
 
   const itemTemplate = (item) => {
-    return <img src={item.itemImageSrc} style={{ width: '780px', height: '480px', display: 'block' }} />;
+    return <img src={item.itemImageSrc} style={{ width: '100%', display: 'block' }} />;
   }
 
   const thumbnailTemplate = (item) => {
@@ -43,7 +43,7 @@ const WebChess = () => {
 
 
   return (
-    <div className="project">
+    <div className="project web-chess">
       <div className="project-text-container">
         <div className="project-title">
           Web Chess
@@ -63,7 +63,7 @@ const WebChess = () => {
 
       </div>
 
-      <div className="right-project-image-container">
+      <div className="left-project-image-container">
         <Galleria
           value={images}
           responsiveOptions={responsiveOptions}
