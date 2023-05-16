@@ -63,7 +63,7 @@ const InvestingSimulator = () => {
         </div>
 
         <div className="project-source-code">
-          <a href="https://github.com/denzelnasol/investment-simulator" target="_blank">
+          <a href="https://github.com/denzelnasol/investing-simulator" target="_blank">
             Source Code
           </a>
         </div>
