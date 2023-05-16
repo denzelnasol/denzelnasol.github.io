@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.27e2d51d.css",
-    "main.js": "/static/js/main.ce24f700.js",
+    "main.css": "/static/css/main.c5eaa0c6.css",
+    "main.js": "/static/js/main.285c6b78.js",
     "static/media/web-chess-1.png": "/static/media/web-chess-1.bddc3b3a080df693859d.png",
     "static/media/investing-simulator-2.png": "/static/media/investing-simulator-2.276b2ace5ae7c70e5f7c.png",
     "static/media/investing-simulator-5.png": "/static/media/investing-simulator-5.7dc0635b6b5ed9295c6c.png",
@@ -20,11 +20,11 @@
     "static/media/primeicons.woff2": "/static/media/primeicons.78172950b335ccdb94e2.woff2",
     "static/media/color.png": "/static/media/color.6441e63a57ccc5105bad.png",
     "index.html": "/index.html",
-    "main.27e2d51d.css.map": "/static/css/main.27e2d51d.css.map",
-    "main.ce24f700.js.map": "/static/js/main.ce24f700.js.map"
+    "main.c5eaa0c6.css.map": "/static/css/main.c5eaa0c6.css.map",
+    "main.285c6b78.js.map": "/static/js/main.285c6b78.js.map"
   },
   "entrypoints": [
-    "static/css/main.27e2d51d.css",
-    "static/js/main.ce24f700.js"
+    "static/css/main.c5eaa0c6.css",
+    "static/js/main.285c6b78.js"
   ]
 }
